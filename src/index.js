@@ -56,12 +56,12 @@ export class ButcherShop extends Component {
           <li>Ribeye</li>
         </ul>
       </div>
-      
+
     )
   }
 
   const ROTTEN_MEAT_PRODUCTS = ["Old Fish", "Sweeney Todd", "Tomatoes?"]
- 
+
   const products = [<li>{ROTTEN_MEAT_PRODUCTS[0]}</li>, <li>ROTTEN_MEAT_PRODUCTS[1]</li>, etc...]
   render() {
     return (
@@ -78,7 +78,9 @@ export class App extends Component {
   render() {
     return (
       <div id="app">
-
+           <OlderCoaster />
+            <InFrontOfYou />
+             <ButcherShop />
       </div>
     )
   }
