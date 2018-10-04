@@ -33,14 +33,14 @@ export class InFrontOfYou extends Component {
     return (
 
       <div>
-        <p>You should not look too far !</p>
-        <p></p>
+        <p>You should not look too far.</p>
+        <p>Sometimes, the solution is right in front of you.</p>
       </div>
-       
-      
+
+
     )
   }
-  
+
 }
 
 export class ButcherShop extends Component {
